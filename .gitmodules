@@ -1,0 +1,3 @@
+[submodule "FontAwesome"]
+	path = Core/Core/Sdk/FontAwesome
+	url = git@github.com:tanakorn-dev/FontAwesome-Sdk.git

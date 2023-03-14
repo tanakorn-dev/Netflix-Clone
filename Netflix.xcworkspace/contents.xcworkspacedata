@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Download/Download.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:New/New.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Home/Home.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Setting/Setting.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Netflix.xcodeproj">
+   </FileRef>
+</Workspace>

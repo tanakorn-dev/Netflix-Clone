@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B71F9A7629C0758A00FC94BC /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = B71F9A7529C0758A00FC94BC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71F9ACB29C075F800FC94BC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB229C075F800FC94BC /* Font.swift */; };
+		B71F9ACC29C075F800FC94BC /* ConfigBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9AB429C075F800FC94BC /* ConfigBundle.swift */; };
+		B71F9ACF29C075F800FC94BC /* FontAwesomeIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9ABB29C075F800FC94BC /* FontAwesomeIconType.swift */; };
+		B71F9AD029C075F800FC94BC /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9ABC29C075F800FC94BC /* IconFont.swift */; };
+		B71F9AD129C075F800FC94BC /* FontType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9ABD29C075F800FC94BC /* FontType.swift */; };
+		B71F9AD229C075F800FC94BC /* FontAwesomeBrandsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F9ABE29C075F800FC94BC /* FontAwesomeBrandsType.swift */; };
+		B71F9AD329C075F800FC94BC /* Font Awesome 6 Pro-Light-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC129C075F800FC94BC /* Font Awesome 6 Pro-Light-300.otf */; };
+		B71F9AD429C075F800FC94BC /* Font Awesome 6 Sharp-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC229C075F800FC94BC /* Font Awesome 6 Sharp-Solid-900.otf */; };
+		B71F9AD529C075F800FC94BC /* Font Awesome 6 Pro-Thin-100.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC329C075F800FC94BC /* Font Awesome 6 Pro-Thin-100.otf */; };
+		B71F9AD629C075F800FC94BC /* Font Awesome 6 Pro-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC429C075F800FC94BC /* Font Awesome 6 Pro-Regular-400.otf */; };
+		B71F9AD729C075F800FC94BC /* Font Awesome 6 Brands-Regular-400.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC529C075F800FC94BC /* Font Awesome 6 Brands-Regular-400.otf */; };
+		B71F9AD829C075F800FC94BC /* Font Awesome 6 Pro-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC629C075F800FC94BC /* Font Awesome 6 Pro-Solid-900.otf */; };
+		B71F9AD929C075F800FC94BC /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */; };
+		B71F9ADA29C075F800FC94BC /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B71F9A7229C0758A00FC94BC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71F9A7529C0758A00FC94BC /* Core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		B71F9AB229C075F800FC94BC /* Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		B71F9AB429C075F800FC94BC /* ConfigBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigBundle.swift; sourceTree = "<group>"; };
+		B71F9ABB29C075F800FC94BC /* FontAwesomeIconType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeIconType.swift; sourceTree = "<group>"; };
+		B71F9ABC29C075F800FC94BC /* IconFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
+		B71F9ABD29C075F800FC94BC /* FontType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontType.swift; sourceTree = "<group>"; };
+		B71F9ABE29C075F800FC94BC /* FontAwesomeBrandsType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeBrandsType.swift; sourceTree = "<group>"; };
+		B71F9AC129C075F800FC94BC /* Font Awesome 6 Pro-Light-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Light-300.otf"; sourceTree = "<group>"; };
+		B71F9AC229C075F800FC94BC /* Font Awesome 6 Sharp-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Sharp-Solid-900.otf"; sourceTree = "<group>"; };
+		B71F9AC329C075F800FC94BC /* Font Awesome 6 Pro-Thin-100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Thin-100.otf"; sourceTree = "<group>"; };
+		B71F9AC429C075F800FC94BC /* Font Awesome 6 Pro-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Regular-400.otf"; sourceTree = "<group>"; };
+		B71F9AC529C075F800FC94BC /* Font Awesome 6 Brands-Regular-400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Brands-Regular-400.otf"; sourceTree = "<group>"; };
+		B71F9AC629C075F800FC94BC /* Font Awesome 6 Pro-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 6 Pro-Solid-900.otf"; sourceTree = "<group>"; };
+		B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B71F9A6F29C0758A00FC94BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B71F9A6829C0758A00FC94BC = {
+			isa = PBXGroup;
+			children = (
+				B71F9A7429C0758A00FC94BC /* Core */,
+				B71F9A7329C0758A00FC94BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B71F9A7329C0758A00FC94BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9A7229C0758A00FC94BC /* Core.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B71F9A7429C0758A00FC94BC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9A7529C0758A00FC94BC /* Core.h */,
+				B71F9AC729C075F800FC94BC /* Assets */,
+				B71F9AB329C075F800FC94BC /* Core Config */,
+				B71F9AB129C075F800FC94BC /* Extention */,
+				B71F9AB529C075F800FC94BC /* Sdk */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B71F9AB129C075F800FC94BC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AB229C075F800FC94BC /* Font.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		B71F9AB329C075F800FC94BC /* Core Config */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AB429C075F800FC94BC /* ConfigBundle.swift */,
+			);
+			path = "Core Config";
+			sourceTree = "<group>";
+		};
+		B71F9AB529C075F800FC94BC /* Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AB629C075F800FC94BC /* FontAwesome */,
+			);
+			path = Sdk;
+			sourceTree = "<group>";
+		};
+		B71F9AB629C075F800FC94BC /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AB929C075F800FC94BC /* Extention */,
+				B71F9ABF29C075F800FC94BC /* Assets */,
+			);
+			path = FontAwesome;
+			sourceTree = "<group>";
+		};
+		B71F9AB929C075F800FC94BC /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9ABA29C075F800FC94BC /* IcontFont */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		B71F9ABA29C075F800FC94BC /* IcontFont */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9ABB29C075F800FC94BC /* FontAwesomeIconType.swift */,
+				B71F9ABC29C075F800FC94BC /* IconFont.swift */,
+				B71F9ABD29C075F800FC94BC /* FontType.swift */,
+				B71F9ABE29C075F800FC94BC /* FontAwesomeBrandsType.swift */,
+			);
+			path = IcontFont;
+			sourceTree = "<group>";
+		};
+		B71F9ABF29C075F800FC94BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AC029C075F800FC94BC /* IcontFont */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B71F9AC029C075F800FC94BC /* IcontFont */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AC129C075F800FC94BC /* Font Awesome 6 Pro-Light-300.otf */,
+				B71F9AC229C075F800FC94BC /* Font Awesome 6 Sharp-Solid-900.otf */,
+				B71F9AC329C075F800FC94BC /* Font Awesome 6 Pro-Thin-100.otf */,
+				B71F9AC429C075F800FC94BC /* Font Awesome 6 Pro-Regular-400.otf */,
+				B71F9AC529C075F800FC94BC /* Font Awesome 6 Brands-Regular-400.otf */,
+				B71F9AC629C075F800FC94BC /* Font Awesome 6 Pro-Solid-900.otf */,
+			);
+			path = IcontFont;
+			sourceTree = "<group>";
+		};
+		B71F9AC729C075F800FC94BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AC829C075F800FC94BC /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B71F9AC829C075F800FC94BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B71F9AC929C075F800FC94BC /* SF-Pro-Display-Regular.otf */,
+				B71F9ACA29C075F800FC94BC /* SF-Pro-Display-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B71F9A6D29C0758A00FC94BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71F9A7629C0758A00FC94BC /* Core.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B71F9A7129C0758A00FC94BC /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B71F9A7929C0758A00FC94BC /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				B71F9A6D29C0758A00FC94BC /* Headers */,
+				B71F9A6E29C0758A00FC94BC /* Sources */,
+				B71F9A6F29C0758A00FC94BC /* Frameworks */,
+				B71F9A7029C0758A00FC94BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = B71F9A7229C0758A00FC94BC /* Core.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B71F9A6929C0758A00FC94BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B71F9A7129C0758A00FC94BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B71F9A6C29C0758A00FC94BC /* Build configuration list for PBXProject "Core" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B71F9A6829C0758A00FC94BC;
+			productRefGroup = B71F9A7329C0758A00FC94BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B71F9A7129C0758A00FC94BC /* Core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B71F9A7029C0758A00FC94BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71F9AD829C075F800FC94BC /* Font Awesome 6 Pro-Solid-900.otf in Resources */,
+				B71F9AD329C075F800FC94BC /* Font Awesome 6 Pro-Light-300.otf in Resources */,
+				B71F9AD629C075F800FC94BC /* Font Awesome 6 Pro-Regular-400.otf in Resources */,
+				B71F9AD729C075F800FC94BC /* Font Awesome 6 Brands-Regular-400.otf in Resources */,
+				B71F9ADA29C075F800FC94BC /* SF-Pro-Display-Bold.otf in Resources */,
+				B71F9AD529C075F800FC94BC /* Font Awesome 6 Pro-Thin-100.otf in Resources */,
+				B71F9AD929C075F800FC94BC /* SF-Pro-Display-Regular.otf in Resources */,
+				B71F9AD429C075F800FC94BC /* Font Awesome 6 Sharp-Solid-900.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B71F9A6E29C0758A00FC94BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71F9AD229C075F800FC94BC /* FontAwesomeBrandsType.swift in Sources */,
+				B71F9ACB29C075F800FC94BC /* Font.swift in Sources */,
+				B71F9AD029C075F800FC94BC /* IconFont.swift in Sources */,
+				B71F9ACC29C075F800FC94BC /* ConfigBundle.swift in Sources */,
+				B71F9AD129C075F800FC94BC /* FontType.swift in Sources */,
+				B71F9ACF29C075F800FC94BC /* FontAwesomeIconType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B71F9A7729C0758A00FC94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B71F9A7829C0758A00FC94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B71F9A7A29C0758A00FC94BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.tanakorn.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B71F9A7B29C0758A00FC94BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.tanakorn.Core;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B71F9A6C29C0758A00FC94BC /* Build configuration list for PBXProject "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71F9A7729C0758A00FC94BC /* Debug */,
+				B71F9A7829C0758A00FC94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B71F9A7929C0758A00FC94BC /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B71F9A7A29C0758A00FC94BC /* Debug */,
+				B71F9A7B29C0758A00FC94BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B71F9A6929C0758A00FC94BC /* Project object */;
+}
