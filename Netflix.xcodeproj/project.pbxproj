@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B71F9ADC29C0762B00FC94BC /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71F9ADB29C0762B00FC94BC /* Core.framework */; };
 		B71F9ADD29C0762B00FC94BC /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B71F9ADB29C0762B00FC94BC /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B71F9AEF29C07FDB00FC94BC /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71F9AEE29C07FDB00FC94BC /* Home.framework */; };
+		B71F9AF029C07FDB00FC94BC /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B71F9AEE29C07FDB00FC94BC /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B7FD47BD29C01ED80030942A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FD47BC29C01ED80030942A /* AppDelegate.swift */; };
 		B7FD47C629C01EDA0030942A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FD47C529C01EDA0030942A /* Assets.xcassets */; };
 		B7FD47C929C01EDA0030942A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FD47C729C01EDA0030942A /* LaunchScreen.storyboard */; };
@@ -22,6 +24,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				B71F9ADD29C0762B00FC94BC /* Core.framework in Embed Frameworks */,
+				B71F9AF029C07FDB00FC94BC /* Home.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +37,7 @@
 		B71F999529C04A2E00FC94BC /* Download.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Download.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F99D329C04C7F00FC94BC /* Setting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Setting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F9ADB29C0762B00FC94BC /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71F9AEE29C07FDB00FC94BC /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FD47B929C01ED80030942A /* Netflix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Netflix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7FD47BC29C01ED80030942A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7FD47C529C01EDA0030942A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F9ADC29C0762B00FC94BC /* Core.framework in Frameworks */,
+				B71F9AEF29C07FDB00FC94BC /* Home.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,7 @@
 		B7FD482329C043370030942A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B71F9AEE29C07FDB00FC94BC /* Home.framework */,
 				B71F9ADB29C0762B00FC94BC /* Core.framework */,
 				B71F99D329C04C7F00FC94BC /* Setting.framework */,
 				B71F999529C04A2E00FC94BC /* Download.framework */,
